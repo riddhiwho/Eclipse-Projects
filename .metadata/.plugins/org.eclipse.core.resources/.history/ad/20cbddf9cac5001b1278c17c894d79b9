@@ -1,0 +1,27 @@
+package com.user;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Register extends HttpServlet{
+	
+public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
+		
+		//getting all the incoming details from the request
+	
+		String name = req.getParameter("user_name");
+		String email = req.getParameter("user_email");
+		String password = req.getParameter("user_password");
+		
+		res.getWriter().println(name);
+		res.getWriter().println(password);
+		res.getWriter().println(email);
+		
+}
+		
+}

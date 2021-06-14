@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+/home/riddhi/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+249961092.index
+1821560580.index
+1627137451.index
+2028774647.index
+705713851.index
+2824983054.index
+2675717907.index
+2976446498.index
+1943482258.index
+3497963931.index
+2710363012.index
